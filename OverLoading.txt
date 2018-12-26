@@ -1,0 +1,22 @@
+package myprograms;
+
+public class OverLoading {
+
+	void display(char ch, int n) {
+		System.out.println("Case1 is displayed");
+	}
+
+	void display(int n, double d) {
+		System.out.println("Case2 is displayed");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		OverLoading o = new OverLoading();
+		o.display(9, 54.0);
+		o.display('a', 9);
+
+	}
+
+}
